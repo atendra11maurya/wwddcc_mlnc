@@ -44,7 +44,7 @@ export function Impact() {
           {[
             { 
               tag: "01 / SELF-DETERMINATION", 
-              title: "AGENCY", 
+              title: "AUTONOMY", 
               copy: "Reclaiming absolute ownership over our choices, bodies, and future trajectories." 
             },
             { 
