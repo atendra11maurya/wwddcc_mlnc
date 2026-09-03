@@ -1,0 +1,97 @@
+"use client";
+
+import { motion } from "framer-motion";
+import Link from "next/link";
+import Image from "next/image";
+import { peopleData } from "@/data/people";
+import { Button } from "../ui/Button";
+
+export function PeoplePreview() {
+  return (
+    <section id="people" className="py-28 bg-foreground/5 overflow-hidden scroll-mt-20">
+      <div className="container mx-auto px-6 md:px-12 flex flex-col gap-16">
+
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 border-b border-foreground/10 pb-8">
+          <div className="flex flex-col gap-4">
+            <span className="text-xs font-mono tracking-widest uppercase text-foreground/50">
+              Leadership & Coordination • Session 2026-27
+            </span>
+            <h2 className="font-serif text-[clamp(3rem,6vw,5.5rem)] leading-[0.9] uppercase tracking-tight text-foreground">
+              The Executive Board
+            </h2>
+            <p className="font-sans text-lg text-foreground/70 max-w-xl">
+              Meet the student leaders driving dialogues, campaigns, and cultural initiatives across Motilal Nehru College.
+            </p>
+          </div>
+          <Button asChild variant="outline" className="self-start md:self-end border-foreground/20 rounded-full">
+            <Link href="/people">View Full Team Directory ↗</Link>
+          </Button>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {peopleData.map((person, index) => (
+            <motion.div
+              key={person.id}
+              className="flex flex-col gap-5 group"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.5, delay: (index % 3) * 0.1 }}
+            >
+              <a
+                href={person.instagramUrl || "https://www.instagram.com/wdc.mlnc/?hl=en"}
+                target="_blank"
+                rel="noreferrer"
+                className="block relative w-full aspect-[4/5] overflow-hidden rounded-3xl border border-foreground/15 shadow-xl bg-foreground/10"
+              >
+                {person.image ? (
+                  <img
+                    src={person.image}
+                    alt={`${person.name} - ${person.role}`}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                ) : null}
+
+                {/* Subtle overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                  <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex justify-between items-center">
+                    <span className="font-sans font-bold text-xs tracking-widest uppercase text-black bg-white px-4 py-2 rounded-full shadow-lg">
+                      Induction Post ↗
+                    </span>
+                    {person.handle && (
+                      <span className="font-mono text-xs text-white/90 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">
+                        {person.handle}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </a>
+
+              <div className="flex flex-col gap-1 px-1">
+                <div className="flex items-center justify-between">
+                  <span className="font-mono text-xs tracking-widest uppercase text-foreground/50 font-bold">
+                    {person.role}
+                  </span>
+                  {person.handle && (
+                    <span className="font-mono text-[11px] text-foreground/40">
+                      {person.handle}
+                    </span>
+                  )}
+                </div>
+                <h4 className="font-serif text-3xl uppercase tracking-tight text-foreground group-hover:text-foreground/80 transition-colors">
+                  {person.name}
+                </h4>
+                {person.bio && (
+                  <p className="font-sans text-xs text-foreground/60 leading-relaxed mt-1">
+                    {person.bio}
+                  </p>
+                )}
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+}

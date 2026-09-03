@@ -1,0 +1,101 @@
+[
+  {
+    "id": "president",
+    "name": "Pragya",
+    "role": "President",
+    "category": "Executive Board",
+    "order": 1,
+    "handle": "@praggyaaa_a",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboTtZzyAud/",
+    "src": "https://scontent-del2-3.cdninstagram.com/v/t51.82787-15/767560413_18185849305396853_770143845751290214_n.webp?_nc_cat=103&ig_cache_key=Mzk1NjQ5ODk1NTYxNzQzODYyMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dnIQc9AeEMkQ7kNvwGEqiXl&_nc_oc=Adp4W3SkIUJJzb19LfJ_c8T0hygupn9x2TmeVDNFOpSb-9_alvfyR0UucfA9g9z_JLM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del2-3.cdninstagram.com&_nc_gid=wpmAQMFvppW_NFNYiJz7EA&_nc_ss=7a22e&oh=00_AQLYZs4REvSjxigpNC4SJDD3sjlF92N4pfDdZYHfJkk-lQ&oe=6A9F94D3",
+    "image": "/images/team/exec_president.jpg"
+  },
+  {
+    "id": "vice-president",
+    "name": "Ritika",
+    "role": "Vice President",
+    "category": "Executive Board",
+    "order": 2,
+    "handle": "@ritikaa_r10",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboTaqgSDAg/",
+    "src": "https://scontent-del3-1.cdninstagram.com/v/t51.82787-15/763672125_18185849128396853_2024248493734531532_n.webp?_nc_cat=100&ig_cache_key=Mzk1NjQ5NzY6Nzg3Mzg0NTI4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FIrCKDz_jycQ7kNvwH0xsau&_nc_oc=Ado8wMoZBNouCKDodrX18ir5DSTRZ_zODm-YZqu6bsqkji0buW7_y-JWwgWbZFdepnI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del3-1.cdninstagram.com&_nc_gid=wpmAQMFvppW_NFNYiJz7EA&_nc_ss=7a22e&oh=00_AQLhXwZBho7hdU1Fq5dSnnJ1If-itYSFd3EiscYxjxibWg&oe=6A9F96D1",
+    "image": "/images/team/exec_vice-president.jpg"
+  },
+  {
+    "id": "general-secretary",
+    "name": "Ansh",
+    "role": "General Secretary",
+    "category": "Executive Board",
+    "order": 3,
+    "handle": "@anshtomar__",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboS_bUSR8G/",
+    "src": "https://scontent-del2-1.cdninstagram.com/v/t51.82787-15/764654891_18185848981396853_8824288266232244403_n.webp?_nc_cat=111&ig_cache_key=Mzk1NjQ5NTc5NjE0MDU4MDYxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=TOGNBjAyajgQ7kNvwHDkrIT&_nc_oc=AdoATeigrvFd7upUoQiq8Pi2ZcYabTVYdz_s5oEFp23t-tJHwoqZzhRrmCxE5T9_BwI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del2-1.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQKYd-rWCZ_DsD0625rfYK4UHwsTAxlr6DcflaAO2UjfvA&oe=6A9F7021",
+    "image": "/images/team/exec_general-secretary.jpg"
+  },
+  {
+    "id": "marketing-secretary",
+    "name": "Ayushi",
+    "role": "Marketing Secretary",
+    "category": "Executive Board",
+    "order": 4,
+    "handle": "@ayyyushisingh",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboSmViytxE/",
+    "src": "https://scontent-del2-3.cdninstagram.com/v/t51.82787-15/764975662_18185848459396853_7369866919801017524_n.webp?_nc_cat=101&ig_cache_key=Mzk1NjQ5NDA3MTk1NDU5NDg4NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fZTFB5XrSNEQ7kNvwGpEKe-&_nc_oc=AdpTT6Dng_YF6rj7hfmmaSe_Dz5fBMyVO20nU8WtV22-ooQjXj-O3Aqogo8volXgMSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del2-3.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQLmmrcLpCWd1siKlvwZImoeKFTkvRiMRzplreG1SCqdHw&oe=6A9F6277",
+    "image": "/images/team/exec_marketing-secretary.jpg"
+  },
+  {
+    "id": "operations-secretary",
+    "name": "Riya",
+    "role": "Operations Secretary",
+    "category": "Executive Board",
+    "order": 5,
+    "handle": "@riaaa_2507",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboRpP4S7YX/",
+    "src": "https://scontent-del3-2.cdninstagram.com/v/t51.82787-15/763137109_18185847664396853_9203702306899350195_n.webp?_nc_cat=109&ig_cache_key=Mzk1NjQ4OTg3Mzk4NDgyODk1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=07nQZ0uh5vkQ7kNvwFhMCOf&_nc_oc=Adr_Wr3efCkivjArFWRvXihnMEIArIVXDxP5qeka8ZzpYWPonDpWb1t9oPcWf_TexB8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del3-2.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQIZZ23WeWKZVF77XGB8TsdHbtBN9ENX3dQ3_BLmj-Spmw&oe=6A9F77D1",
+    "image": "/images/team/exec_operations-secretary.jpg"
+  },
+  {
+    "id": "outreach-secretary",
+    "name": "Mitanshi",
+    "role": "Outreach Secretary",
+    "category": "Executive Board",
+    "order": 6,
+    "handle": "@mitanshhiii",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboRVNfSzJu/",
+    "src": "https://scontent-del2-3.cdninstagram.com/v/t51.82787-15/763588142_18185847397396853_1502589982578030773_n.webp?_nc_cat=101&ig_cache_key=Mzk1NjQ8ODQ5NzAyODM0NjQ3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7cOYl6Rabz0Q7kNvwEM842y&_nc_oc=AdqAHJe7-icPjNsFf5QMxRkUlXpcDVfVLcTpodzXDqxQPkfVLgaGH1WS78fDc3lrlA8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del2-3.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQKyRkSDv4OzSH903eQmBnI9k_uADoApJ7ZxZbtPBb8b1Q&oe=6A9F6725",
+    "image": "/images/team/exec_outreach-secretary.jpg"
+  },
+  {
+    "id": "rd-head",
+    "name": "Disha",
+    "role": "Research & Development Head",
+    "category": "Executive Board",
+    "order": 7,
+    "handle": "@gulmoharketale",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboRBKnys3e/",
+    "src": "https://scontent-del3-1.cdninstagram.com/v/t51.82787-15/766221161_18185847310396853_1755421045429643975_n.webp?_nc_cat=102&ig_cache_key=Mzk1NjQ8NzExOTU6MDE2Njg3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=k8-Wp1jhzewQ7kNvwHi_ruQ&_nc_oc=AdrNH94fqX2cfoY8u9wZdePV-Gn4t3TUfq4Tbt131qox3ZN2tM_gVzJRhfcLZhimLL4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del3-1.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQLpiXFGtLG8o0nwYoF6Bz1HkzNm5BmwnkOk7dbr42FMTw&oe=6A9F729C",
+    "image": "/images/team/exec_rd-head.jpg"
+  },
+  {
+    "id": "operations-head",
+    "name": "Drishti",
+    "role": "Operations Head",
+    "category": "Executive Board",
+    "order": 8,
+    "handle": "@drissshtyyyy",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboQpYRSS6Q/",
+    "src": "https://scontent-del3-1.cdninstagram.com/v/t51.82787-15/765263348_18185847046396853_5356091158676771362_n.webp?_nc_cat=104&ig_cache_key=Mzk1NjQ8NTQ4NDk0NzUxNzA3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sGYysPkYupkQ7kNvwH_zhSL&_nc_oc=AdpKr9sDv1J0y9IZnQTk3DfpCOJ4O2zWVoXngtEEbzeAW0hXb4vnCVrgEi369GfRhSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del3-1.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQI0NxEdAW6xBdxIcyWPJwRZENV60VslFr56YU6o5IuRFQ&oe=6A9F7BA9",
+    "image": "/images/team/exec_operations-head.jpg"
+  },
+  {
+    "id": "marketing-head",
+    "name": "Shubham",
+    "role": "Marketing Head",
+    "category": "Executive Board",
+    "order": 9,
+    "handle": "@nw.shubh.nvm",
+    "instagramUrl": "https://www.instagram.com/wdc.mlnc/p/DboP99ty_P-/",
+    "src": "https://scontent-del3-1.cdninstagram.com/v/t51.82787-15/765214285_18185846707396853_3539775894828268737_n.webp?_nc_cat=107&ig_cache_key=Mzk1NjQ4MjUwMTQ5NzMyMDQ0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=CZHOZnQc-_MQ7kNvwGdw-F2&_nc_oc=AdoOhh_g0Dz4ZI40bTzPxA-QHdyh2WiOgqOhBm7RYMVAsxTzo_vsxy6F-mvy86LXZHI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-del3-1.cdninstagram.com&_nc_gid=CwHI80pEuTxReh6fsnPwXw&_nc_ss=7a22e&oh=00_AQIs9meV5lazgd9p64b7ItjDF7Owx05mKdfakc_eF6ZAjA&oe=6A9F88AC",
+    "image": "/images/team/exec_marketing-head.jpg"
+  }
+]

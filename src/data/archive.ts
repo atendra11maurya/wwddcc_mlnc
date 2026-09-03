@@ -1,0 +1,135 @@
+export interface ArchiveItem {
+  id: string;
+  title: string;
+  initiative: "Bebakh" | "Rehnuma" | "Podcast" | "Campus";
+  year: string;
+  type: "Video";
+  date: string;
+  image: string;
+  video: string;
+  description: string;
+  instagramUrl: string;
+}
+
+export const archiveData: ArchiveItem[] = [
+  {
+    id: "wdc-user-vid-1",
+    title: "Bebakh '26 Grand Annual Wrap & Student Highlights",
+    initiative: "Bebakh",
+    year: "2026",
+    type: "Video",
+    date: "July 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-1.jpg",
+    video: "/videos/archive/wdc_user_video_1.mp4",
+    description: "Comprehensive highlight reel of Bebakh'26: festival sessions, vibrant performances, speaker forums, and youth solidarity across Delhi University.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/Dap95pQy_kW/"
+  },
+  {
+    id: "wdc-user-vid-2",
+    title: "WDC Orientation 2026 Induction Glimpses",
+    initiative: "Rehnuma",
+    year: "2026",
+    type: "Video",
+    date: "August 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-2.jpg",
+    video: "/videos/archive/wdc_user_video_2.mp4",
+    description: "First steps into WDC: meeting the teams, understanding the vision, and joining the student community at Motilal Nehru College.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/DctvszZSxxU/"
+  },
+  {
+    id: "wdc-user-vid-3",
+    title: "Voice & Expression: Breaking Gender Stereotypes",
+    initiative: "Podcast",
+    year: "2026",
+    type: "Video",
+    date: "August 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-3.jpg",
+    video: "/videos/archive/wdc_user_video_3.mp4",
+    description: "Challenging labels, questioning social norms, and making space for authentic self-expression in university spaces.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/DcoD9d1yKZv/"
+  },
+  {
+    id: "wdc-user-vid-4",
+    title: "WDC Annual Recruitment Call & Community Showcase",
+    initiative: "Campus",
+    year: "2026",
+    type: "Video",
+    date: "August 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-4.jpg",
+    video: "/videos/archive/wdc_user_video_4.mp4",
+    description: "Annual recruitment drive video welcoming new batch members across PR, Editorial, Logistics, and Research wings.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/Db-rj0DyStP/"
+  },
+  {
+    id: "wdc-user-vid-5",
+    title: "Bebakh '26 Flashmob & Courtyard Cultural Showcase",
+    initiative: "Bebakh",
+    year: "2026",
+    type: "Video",
+    date: "July 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-5.jpg",
+    video: "/videos/archive/wdc_user_video_5.mp4",
+    description: "High-energy courtyard flashmob and dance performance celebrating uninhibited expression and collegiate solidarity.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/Daro4bRSPwV/"
+  },
+  {
+    id: "wdc-user-vid-6",
+    title: "Film Screening: 'BEBAKH' Short Film Discussion",
+    initiative: "Bebakh",
+    year: "2026",
+    type: "Video",
+    date: "June 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-6.jpg",
+    video: "/videos/archive/wdc_user_video_6.mp4",
+    description: "Special film screening and moderated dialogue session exploring hidden love, queer identities, and emotional courage.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/Daav0JqSHHo/"
+  },
+  {
+    id: "wdc-user-vid-7",
+    title: "WDC Open Mic Night & Poetry Circle Highlights",
+    initiative: "Rehnuma",
+    year: "2026",
+    type: "Video",
+    date: "June 2026",
+    image: "/images/archive/videos/thumb_wdc-user-vid-7.jpg",
+    video: "/videos/archive/wdc_user_video_7.mp4",
+    description: "Poetry, acoustic music, shayari, and lived experiences shared openly at the WDC MLNC Open Mic.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/DaYXrMIAjaD/"
+  },
+  {
+    id: "wdc-bebak-flagship",
+    title: "Bebakh '26 Flagship Festival Highlights",
+    initiative: "Bebakh",
+    year: "2026",
+    type: "Video",
+    date: "May 2026",
+    image: "/images/archive/videos/video_thumb_8_reel-8.jpg",
+    video: "/videos/bebak.mp4",
+    description: "Capturing festival memories, art showcases, debates, and student participation across all Bebakh'26 days.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/DaM85nvSYds/"
+  },
+  {
+    id: "wdc-rehnuma-flagship",
+    title: "Rehnuma Interactive Speaker Forum & Panel",
+    initiative: "Rehnuma",
+    year: "2026",
+    type: "Video",
+    date: "August 2026",
+    image: "/images/archive/videos/video_thumb_1_reel-1.jpg",
+    video: "/videos/rehnuma.mp4",
+    description: "Keynote dialogues, panel discussions, and guest speaker interactions from the Rehnuma forum series.",
+    instagramUrl: "https://www.instagram.com/wdc.mlnc/reel/DctvszZSxxU/"
+  },
+  {
+    id: "wdc-podcast-ep1",
+    title: "Rehnuma : Episode 01 - Aishwarya Amrit Vijay Raj",
+    initiative: "Podcast",
+    year: "2026",
+    type: "Video",
+    date: "September 2026",
+    image: "/images/archive/videos/video_thumb_2_reel-2.jpg",
+    video: "https://www.youtube.com/embed/vMmHmeldgfo",
+    description: "In-depth conversation exploring queer solidarity, identity journeys, and transformative campus discourse.",
+    instagramUrl: "https://www.youtube.com/watch?v=vMmHmeldgfo"
+  }
+];
